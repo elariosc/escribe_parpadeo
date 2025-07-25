@@ -6,6 +6,13 @@ Este archivo documenta los cambios más relevantes realizados en cada versión d
 > El proyecto utiliza [SemVer](https://semver.org/lang/es/) para la gestión de versiones.
 
 ---
+## [1.0.1] - 2025-07-25
+### Added
+- Archivo `LICENSE` bilingüe (MIT) para establecer la licencia del proyecto.
+- Archivo `README.md` inicial con descripción, estructura del proyecto y créditos.
+
+### Notes
+- Esta versión mantiene la funcionalidad de la v1.0.0, pero añade la documentación y la licencia oficial.
 
 ## [v1.0.0] - 2025-07-24
 
@@ -32,8 +39,9 @@ Esta versión marca el inicio oficial del proyecto *EscribeConUnParpadeo*, una h
 
 ## [Próximamente]
 
-- Documentación inicial en `README.md` con enlaces a tutoriales de YouTube.
 - Sección de instalación automática para Windows/Mac/Linux.
 - Interfaz gráfica básica*.
 - Integración con base de datos para guardar frases o palabras comunes.
 - Sección para personalización avanzada de cuadrantes.
+- Texto predictivo para completar palabras y reducir el número de parpadeos.
+- Detección de mirada por cuadrante para reducir el número de parpadeos.
