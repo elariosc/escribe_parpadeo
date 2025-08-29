@@ -6,6 +6,16 @@ Este archivo documenta los cambios más relevantes realizados en cada versión d
 > El proyecto utiliza [SemVer](https://semver.org/lang/es/) para la gestión de versiones.
 
 ---
+## [1.0.2] - 2025-08-28
+### Added
+- Archivo `requirements.txt` con todas las dependencias/librerias necesarias para ejecutar el programa.
+- Archivo `instalar_librerias.bat` archivo ejecutable en windows para instalar las librerias necesarias.
+- Archivo `ejecutar.bat` archivo ejecutable en windows para ejecutar el programa.
+- Archivos `README.md` actualizado con las instrucciones para usar los archivos agregados.
+
+### Notes
+- Esta versión mantiene la funcionalidad de la v1.0.0, pero añade archivos necesarios para hacer la configuracion y uso mas amigables.
+
 ## [1.0.1] - 2025-07-25
 ### Added
 - Archivo `LICENSE` bilingüe (MIT) para establecer la licencia del proyecto.

@@ -50,25 +50,51 @@ escribe_parpadeo/
 - Paquetes: `pyserial`, `keyboard`, `configparser`, `time`
 
 ## ⚙️ Instalación
+### Opcion 1: Usando linea de comandos
 
 1. Clona el repositorio:
    ```bash
    git clone https://github.com/elariosc/escribe_parpadeo.git
-   cd escribe_parpadeo
+   cd escribe_parpadeo/escribe_parpadeo
    ```
 
 2. Instala las dependencias de Python:
    ```bash
-   pip install pyserial keyboard
+   pip install -r requirements.txt
    ```
 
 3. Conecta el Arduino, carga el código `.ino` y ajusta el puerto en `config.ini`.
 
 4. Ejecuta los scripts:
    ```bash
-   python lectura_serie.py
-   python escribir_main.py
+   python start.py
    ```
+
+### Opcion 2: Entorno de windows
+
+1. En un explorador de internet ve a la pagina:
+   https://github.com/elariosc/escribe_parpadeo.git 
+   y descarga el release mas reciente
+   
+2. Instala las dependencias de Python:
+   Navega por las carpetas y entra en la carpeta escribe_parpadeo 2 veces hasta
+   que veas los archivo con extension py
+
+   Dale doble clic al archivo instalar_librerias.bat
+
+   Tambien puedes abrir el cmd en esta ubicacion y ejecutar:
+   pip install -r requirements.txt
+
+3. Conecta el Arduino, carga el código `.ino` y ajusta el puerto en `config.ini`.
+
+4. Ejecuta los scripts:
+   En la misma ubicacion de el punto 3 
+
+   Dale doble clic al archivo ejecutar.bat
+
+   Tambien puedes abrir el cmd en esta ubicacion y ejecutar:
+   python start.py
+
 
 ## 👓 Créditos del modelo 3D
 
