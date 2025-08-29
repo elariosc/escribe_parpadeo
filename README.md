@@ -23,10 +23,13 @@ escribe_parpadeo/
 ├── escribe_parpadeo/
 │ ├── config.ini # Configuración del puerto serie (COM)
 │ ├── cuadrantes.py # Diccionario de cuadrantes personalizables
+│ ├── ejecutar.bat # Archivo ejecutable en windows para lanzar el programa
 │ ├── escribir_main.py # Programa principal de escritura
+│ ├── instalar_librerias.bat # Archivo ejecutable en windows para instalar las librerias necesarias
 │ ├── lectura_serie.py # Script para recibir datos del Arduino
 │ ├── maquina_estados.py # Lógica del sistema de escritura
 │ ├── pantalla.py # Biblioteca para controlar la impresion de caracteres
+│ ├── requirements.txt # Listado de dependencias/librerias necesarias para ejecutar el programa
 │ └── start.py # Script para iniciar la aplicación
 │
 ├── modelos_3d/
@@ -73,29 +76,34 @@ escribe_parpadeo/
 ### Opcion 2: Entorno de windows
 
 1. En un explorador de internet ve a la pagina:
-   https://github.com/elariosc/escribe_parpadeo.git 
-   y descarga el release mas reciente
+
+   https://github.com/elariosc/escribe_parpadeo.git
+   
+   y descarga el release mas reciente.
    
 2. Instala las dependencias de Python:
-   Navega por las carpetas y entra en la carpeta escribe_parpadeo 2 veces hasta
-   que veas los archivo con extension py
 
-   Dale doble clic al archivo instalar_librerias.bat
+   Navega por las carpetas y entra en la carpeta `escribe_parpadeo` dos veces hasta
+   que veas los archivo con extension `.py`
+
+   Dale doble clic al archivo `instalar_librerias.bat`
 
    Tambien puedes abrir el cmd en esta ubicacion y ejecutar:
+   ```bash
    pip install -r requirements.txt
-
+   ```
+   
 3. Conecta el Arduino, carga el código `.ino` y ajusta el puerto en `config.ini`.
 
-4. Ejecuta los scripts:
-   En la misma ubicacion de el punto 3 
-
-   Dale doble clic al archivo ejecutar.bat
+4. En la misma ubicacion de el punto 3, ejecuta los scripts:
+   
+   Dale doble clic al archivo `ejecutar.bat`
 
    Tambien puedes abrir el cmd en esta ubicacion y ejecutar:
+   ```bash
    python start.py
-
-
+   ```
+   
 ## 👓 Créditos del modelo 3D
 
 Los modelos utilizados para los lentes se basan en el diseño publicado por el usuario [Sam Seegmiller](https://makerworld.com/en/u/samseegmiller) en MakerWorld:
